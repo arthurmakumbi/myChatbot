@@ -75,13 +75,14 @@ If a requirements.txt file is not present, manually install the libraries you ne
 
 Open Jupyter and run:
 
-```bash jupyter notebook
+```bash 
+jupyter notebook
 ```
 
 Then open chatbot_demo.ipynb and run the cells in order. The notebook guides you through:
-Data prep
-Model training
-Conversational interaction
+- Data prep
+- Model training
+- Conversational interaction
 
 You can similarly explore generalizing_chatbot.ipynb for experiments in generalizing across contexts or domains.
 
@@ -101,38 +102,38 @@ myChatbot/
 
 ## Usage
 
-Use the demo notebook as a base to understand the flow of building a conversational agent.
-Modify or extend training data, model architectures, or hyperparameters.
-Add support for new conversational domains, datasets, or features (e.g. sentiment, context tracking).
-Compare baseline models versus more advanced ones (Transformer-based, retrieval + generation, etc.).
+- Use the demo notebook as a base to understand the flow of building a conversational agent.
+- Modify or extend training data, model architectures, or hyperparameters.
+- Add support for new conversational domains, datasets, or features (e.g. sentiment, context tracking).
+- Compare baseline models versus more advanced ones (Transformer-based, retrieval + generation, etc.).
 
 ## Customization
 You can tailor this project by:
-Replacing or augmenting training data
-Swapping in neural network models (e.g. using transformers)
-Adding modular pipeline steps (e.g. preprocessing, tokenization)
-Integrating APIs (dialogue management, external knowledge bases)
-Packaging into a web UI (Flask, FastAPI, etc.)
+- Replacing or augmenting training data
+- Swapping in neural network models (e.g. using transformers)
+- Adding modular pipeline steps (e.g. preprocessing, tokenization)
+- Integrating APIs (dialogue management, external knowledge bases)
+- Packaging into a web UI (Flask, FastAPI, etc.)
 
 ## Contributing
 Contributions are welcome! Here are a few ways to help:
-Report issues or bugs
-Improve or extend notebooks
-Add new features or modules
-Write better documentation
-Share datasets or evaluation scripts
+- Report issues or bugs
+- Improve or extend notebooks
+- Add new features or modules
+- Write better documentation
+- Share datasets or evaluation scripts
 
 To contribute:
-Fork the repo
-Create a new branch (git checkout -b feature/my-feature)
-Commit your changes
-Open a Pull Request
+- Fork the repo
+- Create a new branch (git checkout -b feature/my-feature)
+- Commit your changes
+- Open a Pull Request
 
 ## License
 "All rights reserved."
 
 ## Contact
 If you want to reach me:
-GitHub: arthurmakumbi
+- GitHub: arthurmakumbi
 
 # Happy experimenting! 💬
